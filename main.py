@@ -40,11 +40,15 @@
 # v0.0.5 2021-04-09 Added [SubWindows]namespace and its components.
 # v0.0.6 2021-04-10 Completed GridButtonWindow class to be functional.
 # v0.1.0 2021-04-11 Added commend section and etc for additional maintainability.
+# v0.1.1 2021-04-13 Added overview document.
 # ================================
 # Code rule : pip standard with small changes
 # Commend rule : pycharm standard with formatted comments
 # ================================
 from GridButtonWindow import GridButtonWindow
+
+# TODO: Additional row and column exceptional window (curent: automatically change into range)
+# TODO: Resizing option
 
 if __name__ == "__main__":
     main_window = GridButtonWindow()
