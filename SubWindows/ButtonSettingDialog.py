@@ -1,9 +1,9 @@
-import tkinter
 from typing import Union
+import tkinter
 from functools import partial
 
 from command_handler import handle_command_oneshot
-from SubWindows import ColorChooserDialog
+from SubWindows.ColorChooserDialog import ColorChooserDialog
 
 
 class ButtonSettingDialog(tkinter.Toplevel):

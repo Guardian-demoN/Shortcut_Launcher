@@ -52,7 +52,7 @@ from GridButtonWindow import GridButtonWindow
 
 if __name__ == "__main__":
     main_window = GridButtonWindow()
-    main_window.title("test window")
+    main_window.title("Guardian_demoN : Shortcut Launcher")
 
     main_window.ui_set_button_info(0, "Calculator", "calc")
     main_window.ui_set_button_info(1, "C:\\", "c:\\")

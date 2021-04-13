@@ -2,7 +2,7 @@ from typing import Union
 import tkinter
 from functools import partial
 
-from SubWindows import ColorChooserDialog
+from SubWindows.ColorChooserDialog import ColorChooserDialog
 
 
 class GeneralSettingDialog(tkinter.Toplevel):
